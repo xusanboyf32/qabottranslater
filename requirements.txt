@@ -1,0 +1,4 @@
+aiogram>=3.13
+groq
+edge-tts>=7.3.1
+python-dotenv
