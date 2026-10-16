@@ -4,7 +4,8 @@ MAX_PART_LEN = 1500
 
 
 def is_uzbek(language: str) -> bool:
-    return language.strip().lower() in {"uzbek", "uz"}
+    # return language.strip().lower() in {"uzbek", "uz"}
+    return language.strip().lower() in {"uzbek"}
 
 
 def _trim(text: str) -> str:
